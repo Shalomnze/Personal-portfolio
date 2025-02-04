@@ -35,7 +35,7 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	background: transparent;
-	padding: 22px 16%;
+	padding: 22px 12%;
 
 	border-bottom: 1px solid transparent;
 	transition: all .40s ease;
@@ -69,7 +69,7 @@ header{
 }
 
 section{
-	padding: 160px 10% 90px;
+	padding: 160px 12% 90px;
 }
 .home{
 	height: 100vh;
@@ -126,13 +126,12 @@ span{
 }
 
 header.sticky{
-	padding: 10px 16%;
+	padding: 10px 12%;
 	background: var(--bg-color);
 	border-bottom: 1px solid #0e1630;
 }
 .about{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	display: flex;
 	align-items: center;
 	gap: 2rem;
 }
